@@ -1,0 +1,35 @@
+{
+    "ttl":60,
+    "sites":
+    [
+        {
+            "from":"netEase",
+            "contentTag":"#endText",
+            "newsPic":"end_news",
+            "removeElement":"http://img1.cache.netease.com/cnews/css13/img/end_news.png",
+            "channel":
+                [
+                    {
+                        "title":"头条",
+                        "link":"http://news.163.com/special/00011K6L/rss_newstop.xml",
+                        "typeId":1
+                    },
+                    {
+                        "title":"娱乐新闻",
+                        "link":"http://ent.163.com/special/00031K7Q/rss_toutiao.xml",
+                        "typeId":2
+                    },
+                    {
+                        "title":"国际新闻",
+                        "link":"http://news.163.com/special/00011K6L/rss_gj.xml",
+                        "typeId":3
+                    },
+                    {
+                        "title":"社会新闻",
+                        "link":"http://news.163.com/special/00011K6L/rss_sh.xml",
+                        "typeId":4
+                    }
+                ]
+        }
+    ]
+}
